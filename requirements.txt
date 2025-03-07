@@ -1,11 +1,13 @@
-faster-whisper
 groq
-openai
-google-generativeai
-opencv_python
-Pillow
-PyAudio
-SpeechRecognition
-pyperclip
-pyttsx3
 dotenv
+pyttsx3
+# pyttsx requires alsa(Advanced Language Support Audio) driver like espeak for ubantu and flite(comes by default in most of the cases) in kali linux to be installed in you system package.
+# Use `sudo apt install -y espeak` to install in ubantu and `sudo apt install -y flite` to install in kali linux
+
+pyaudio # required by pyttsx3 to run
+SpeechRecognition
+langchain
+wikipedia
+webbrowser
+gTTS
+# groq and gtts requires internet to work properly
